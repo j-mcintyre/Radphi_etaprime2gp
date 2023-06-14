@@ -1,1 +1,7 @@
-# Nothing to ignore yet
+# Files to ignore
+*.d
+*.so
+*.pcm
+*.pdf
+*.png
+*.root

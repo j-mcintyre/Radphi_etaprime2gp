@@ -1,0 +1,60 @@
+---- E0_t0 ----
+----   Yield   ----
+Fit Integral   : 1897.78
+Manual Integral: 1897.78 +/- 152.977
+
+---- E0_t1 ----
+----   Yield   ----
+Fit Integral   : 2019.21
+Manual Integral: 2019.21 +/- 152.405
+
+---- E0_t2 ----
+----   Yield   ----
+Fit Integral   : 337.966
+Manual Integral: 337.966 +/- 103.185
+
+---- E1_t0 ----
+----   Yield   ----
+Fit Integral   : 1437.44
+Manual Integral: 1437.44 +/- 117.207
+
+---- E1_t1 ----
+----   Yield   ----
+Fit Integral   : 2395.78
+Manual Integral: 2395.78 +/- 153.877
+
+---- E1_t2 ----
+----   Yield   ----
+Fit Integral   : 234.472
+Manual Integral: 234.472 +/- 106.624
+
+---- E2_t0 ----
+----   Yield   ----
+Fit Integral   : 2417.73
+Manual Integral: 2417.73 +/- 291.731
+
+---- E2_t1 ----
+----   Yield   ----
+Fit Integral   : 2323.03
+Manual Integral: 2323.03 +/- 280.505
+
+---- E2_t2 ----
+----   Yield   ----
+Fit Integral   : 120.843
+Manual Integral: 120.843 +/- 89.8586
+
+---- E3_t0 ----
+----   Yield   ----
+Fit Integral   : 1941.34
+Manual Integral: 1941.34 +/- 216.618
+
+---- E3_t1 ----
+----   Yield   ----
+Fit Integral   : 3508.45
+Manual Integral: 3508.45 +/- 214.456
+
+---- E3_t2 ----
+----   Yield   ----
+Fit Integral   : 26.385
+Manual Integral: 26.385 +/- 84.8742
+

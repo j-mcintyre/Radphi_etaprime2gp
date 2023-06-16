@@ -627,7 +627,7 @@ void  Ebin_allt_Etaprime_BkgdFit() {
       // Signal #4 - Etap std dev limit for the single gaussian
       // Single Gaussian
       uparlim20 = 0.080;
-      dparlim20 = 0.045;
+      dparlim20 = 0.040;
 
       ///////////////////////////////////////
       /* Setting up the limits for the fit */

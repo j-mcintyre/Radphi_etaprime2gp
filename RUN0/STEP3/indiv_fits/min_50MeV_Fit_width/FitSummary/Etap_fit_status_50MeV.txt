@@ -1,0 +1,72 @@
+___ E0_t0 ___
+B2               = 595.565
+B2 CovM Error    = 0.000197665
+Percent Error    = 3.31896e-05% 
+E0_t0 = 1
+
+___ E0_t1 ___
+B2               = 1113.92
+B2 CovM Error    = 14.4959
+Percent Error    = 1.30134% 
+E0_t1 = 1
+
+___ E0_t2 ___
+B2               = 552.385
+B2 CovM Error    = 10.9023
+Percent Error    = 1.97367% 
+E0_t2 = 1
+
+___ E1_t0 ___
+B2               = 730.563
+B2 CovM Error    = 0.000427753
+Percent Error    = 5.85511e-05% 
+E1_t0 = 1
+
+___ E1_t1 ___
+B2               = 983.311
+B2 CovM Error    = 0.0914464
+Percent Error    = 0.00929984% 
+E1_t1 = 1
+
+___ E1_t2 ___
+B2               = 519.292
+B2 CovM Error    = 10.0762
+Percent Error    = 1.94036% 
+E1_t2 = 1
+
+___ E2_t0 ___
+B2               = 615.324
+B2 CovM Error    = 4.51523e-05
+Percent Error    = 7.33797e-06% 
+E2_t0 = 1
+
+___ E2_t1 ___
+B2               = 956.226
+B2 CovM Error    = 16.7359
+Percent Error    = 1.7502% 
+E2_t1 = 1
+
+___ E2_t2 ___
+B2               = 482.61
+B2 CovM Error    = 11.0698
+Percent Error    = 2.29374% 
+E2_t2 = 1
+
+___ E3_t0 ___
+B2               = 580.309
+B2 CovM Error    = 0.0115368
+Percent Error    = 0.00198804% 
+E3_t0 = 1
+
+___ E3_t1 ___
+B2               = 869.727
+B2 CovM Error    = 19.531
+Percent Error    = 2.24564% 
+E3_t1 = 1
+
+___ E3_t2 ___
+B2               = 490.417
+B2 CovM Error    = 10.0573
+Percent Error    = 2.05077% 
+E3_t2 = 1
+

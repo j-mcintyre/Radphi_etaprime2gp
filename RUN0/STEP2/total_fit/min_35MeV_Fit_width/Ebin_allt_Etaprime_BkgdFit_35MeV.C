@@ -180,10 +180,10 @@ double ftotal(double *x, double *par) {
   }
 
 
-void  Ebin_allt_Etaprime_BkgdFit() {
+void  Ebin_allt_Etaprime_BkgdFit_35MeV() {
 
    // Root file with new histograms for reference in later analysis work
-  	TFile *MyFile = new TFile("TwoG_may_16_2023_STEP2.root", "NEW");
+  	TFile *MyFile = new TFile("TwoG_may_16_2023_STEP2_35MeV.root", "NEW");
 
 
    // Lower edge of |t| bins
@@ -627,7 +627,7 @@ void  Ebin_allt_Etaprime_BkgdFit() {
       // Signal #4 - Etap std dev limit for the single gaussian
       // Single Gaussian
       uparlim20 = 0.080;
-      dparlim20 = 0.045;
+      dparlim20 = 0.035;
 
       ///////////////////////////////////////
       /* Setting up the limits for the fit */
@@ -969,7 +969,7 @@ void  Ebin_allt_Etaprime_BkgdFit() {
       gFile = MyFile;
       TString hdirName;
       // Root file with new histograms for reference in later analysis work
-      TFile *MyFile = new TFile("TwoG_may_16_2023_STEP2.root", "UPDATE");
+      TFile *MyFile = new TFile("TwoG_may_16_2023_STEP2_35MeV.root", "UPDATE");
 
 		if (Echannel == 0) {
          SBRANGE->SetBinContent(1, EtapLower);

@@ -1,0 +1,424 @@
+____________________________________
+XEtapUp     = 1055 MeV/c^2
+XEtapDown   = 880 MeV/c^2
+XEtapLow    = 875 MeV/c^2
+XEtapLower  = 790 MeV/c^2
+XEtapHigh   = 1060 MeV/c^2
+XEtapHigher = 1150 MeV/c^2
+ Check S0 Region
+Integral = 1553.22
+Manual   = 1553.22
+Error    = 152.582
+
+ Check S1 Region
+Integral = 86.9834
+Manual   = 86.9834
+Error    = 30.0845
+
+ Check S2 Region
+Integral = 99.3117
+Manual   = 99.3117
+Error    = 49.1355
+
+ Check B0 Region
+Integral = 2686.07
+Manual   = 2686.07
+Error    = 41.1408
+
+ Check B1 Region
+Integral = 6422.08
+Manual   = 6422.08
+Error    = 144.717
+
+ Check B2 Region
+Integral = 567.075
+Manual   = 567.075
+Error    = 0.0366771
+
+---- 
+---- 
+
+ Check S0 Region
+Integral = 1609.23
+Manual   = 1609.23
+Error    = 276.439
+
+ Check S1 Region
+Integral = 51.6821
+Manual   = 51.6821
+Error    = 34.7006
+
+ Check S2 Region
+Integral = 21.7743
+Manual   = 21.7743
+Error    = 24.8688
+
+ Check B0 Region
+Integral = 4479.54
+Manual   = 4479.54
+Error    = 37.3396
+
+ Check B1 Region
+Integral = 5514.15
+Manual   = 5514.15
+Error    = 220.826
+
+ Check B2 Region
+Integral = 1087.86
+Manual   = 1087.86
+Error    = 14.6398
+
+---- 
+---- 
+
+ Check S0 Region
+Integral = 252.072
+Manual   = 252.072
+Error    = 108.285
+
+ Check S1 Region
+Integral = 2.15249
+Manual   = 2.15249
+Error    = 4.82221
+
+ Check S2 Region
+Integral = 6.83768
+Manual   = 6.83768
+Error    = 11.5738
+
+ Check B0 Region
+Integral = 2178.82
+Manual   = 2178.82
+Error    = 7.30393
+
+ Check B1 Region
+Integral = 1956.36
+Manual   = 1956.36
+Error    = 196.646
+
+ Check B2 Region
+Integral = 540.801
+Manual   = 540.801
+Error    = 9.66029
+
+---- 
+---- 
+
+____________________________________
+XEtapUp     = 1050 MeV/c^2
+XEtapDown   = 865 MeV/c^2
+XEtapLow    = 860 MeV/c^2
+XEtapLower  = 770 MeV/c^2
+XEtapHigh   = 1055 MeV/c^2
+XEtapHigher = 1150 MeV/c^2
+ Check S0 Region
+Integral = 1111.98
+Manual   = 1111.98
+Error    = 359.759
+
+ Check S1 Region
+Integral = 5.70554
+Manual   = 5.70554
+Error    = 20.7547
+
+ Check S2 Region
+Integral = 29.7145
+Manual   = 29.7145
+Error    = 22.1715
+
+ Check B0 Region
+Integral = 3650.12
+Manual   = 3650.12
+Error    = 1489.46
+
+ Check B1 Region
+Integral = 8692.16
+Manual   = 8692.16
+Error    = 2260.56
+
+ Check B2 Region
+Integral = 732.278
+Manual   = 732.278
+Error    = 0.243322
+
+---- 
+---- 
+
+ Check S0 Region
+Integral = 1996.15
+Manual   = 1996.15
+Error    = 254.159
+
+ Check S1 Region
+Integral = 46.6972
+Manual   = 46.6972
+Error    = 26.3986
+
+ Check S2 Region
+Integral = 44.7628
+Manual   = 44.7628
+Error    = 32.6146
+
+ Check B0 Region
+Integral = 4406.8
+Manual   = 4406.8
+Error    = 61.3932
+
+ Check B1 Region
+Integral = 6620.29
+Manual   = 6620.29
+Error    = 214.196
+
+ Check B2 Region
+Integral = 1008.76
+Manual   = 1008.76
+Error    = 15.0645
+
+---- 
+---- 
+
+ Check S0 Region
+Integral = 152.11
+Manual   = 152.11
+Error    = 75.9223
+
+ Check S1 Region
+Integral = 0.965807
+Manual   = 0.965807
+Error    = 1.34497
+
+ Check S2 Region
+Integral = 0.161653
+Manual   = 0.161653
+Error    = 0.253216
+
+ Check B0 Region
+Integral = 2169.8
+Manual   = 2169.8
+Error    = 1.54187
+
+ Check B1 Region
+Integral = 1969.17
+Manual   = 1969.17
+Error    = 117.967
+
+ Check B2 Region
+Integral = 530.699
+Manual   = 530.699
+Error    = 9.9743
+
+---- 
+---- 
+
+____________________________________
+XEtapUp     = 1075 MeV/c^2
+XEtapDown   = 840 MeV/c^2
+XEtapLow    = 835 MeV/c^2
+XEtapLower  = 720 MeV/c^2
+XEtapHigh   = 1080 MeV/c^2
+XEtapHigher = 1200 MeV/c^2
+ Check S0 Region
+Integral = 2204.41
+Manual   = 2204.41
+Error    = 209.449
+
+ Check S1 Region
+Integral = 123.202
+Manual   = 123.202
+Error    = 90.8118
+
+ Check S2 Region
+Integral = 66.3444
+Manual   = 66.3444
+Error    = 25.1434
+
+ Check B0 Region
+Integral = 4102.44
+Manual   = 4102.44
+Error    = 169.313
+
+ Check B1 Region
+Integral = 15290.7
+Manual   = 15290.7
+Error    = 233.796
+
+ Check B2 Region
+Integral = 615.309
+Manual   = 615.309
+Error    = 4.52216e-05
+
+---- 
+---- 
+
+ Check S0 Region
+Integral = 2153.43
+Manual   = 2153.43
+Error    = 297.555
+
+ Check S1 Region
+Integral = 41.4017
+Manual   = 41.4017
+Error    = 25.1761
+
+ Check S2 Region
+Integral = 44.312
+Manual   = 44.312
+Error    = 46.6635
+
+ Check B0 Region
+Integral = 5283.54
+Manual   = 5283.54
+Error    = 134.6
+
+ Check B1 Region
+Integral = 10597.3
+Manual   = 10597.3
+Error    = 374.45
+
+ Check B2 Region
+Integral = 955.793
+Manual   = 955.793
+Error    = 16.7339
+
+---- 
+---- 
+
+ Check S0 Region
+Integral = 128.094
+Manual   = 128.094
+Error    = 67.2977
+
+ Check S1 Region
+Integral = 0.0108856
+Manual   = 0.0108856
+Error    = 0.0235896
+
+ Check S2 Region
+Integral = 0.0766975
+Manual   = 0.0766975
+Error    = 0.14013
+
+ Check B0 Region
+Integral = 2421.15
+Manual   = 2421.15
+Error    = 9.90169
+
+ Check B1 Region
+Integral = 2947.57
+Manual   = 2947.57
+Error    = 500.681
+
+ Check B2 Region
+Integral = 481.868
+Manual   = 481.868
+Error    = 10.538
+
+---- 
+---- 
+
+____________________________________
+XEtapUp     = 1075 MeV/c^2
+XEtapDown   = 830 MeV/c^2
+XEtapLow    = 825 MeV/c^2
+XEtapLower  = 705 MeV/c^2
+XEtapHigh   = 1080 MeV/c^2
+XEtapHigher = 1205 MeV/c^2
+ Check S0 Region
+Integral = 1716.52
+Manual   = 1716.52
+Error    = 127.029
+
+ Check S1 Region
+Integral = 2.19545
+Manual   = 2.19545
+Error    = 1.53284
+
+ Check S2 Region
+Integral = 34.0126
+Manual   = 34.0126
+Error    = 22.5818
+
+ Check B0 Region
+Integral = 5472.06
+Manual   = 5472.06
+Error    = 141.647
+
+ Check B1 Region
+Integral = 17629.7
+Manual   = 17629.7
+Error    = 240.269
+
+ Check B2 Region
+Integral = 580.313
+Manual   = 580.313
+Error    = 0.0114497
+
+---- 
+---- 
+
+ Check S0 Region
+Integral = 3080.01
+Manual   = 3080.01
+Error    = 155.839
+
+ Check S1 Region
+Integral = 260.76
+Manual   = 260.76
+Error    = 13.984
+
+ Check S2 Region
+Integral = 140.222
+Manual   = 140.222
+Error    = 7.8127
+
+ Check B0 Region
+Integral = 4737.07
+Manual   = 4737.07
+Error    = 57.4694
+
+ Check B1 Region
+Integral = 11660.1
+Manual   = 11660.1
+Error    = 209.989
+
+ Check B2 Region
+Integral = 865.237
+Manual   = 865.237
+Error    = 18.4642
+
+---- 
+---- 
+
+ Check S0 Region
+Integral = 83.2606
+Manual   = 83.2606
+Error    = 64.4843
+
+ Check S1 Region
+Integral = 0.00725946
+Manual   = 0.00725946
+Error    = 0.0173051
+
+ Check S2 Region
+Integral = 0.0171728
+Manual   = 0.0171728
+Error    = 0.0370699
+
+ Check B0 Region
+Integral = 2442.74
+Manual   = 2442.74
+Error    = 21.9596
+
+ Check B1 Region
+Integral = 3256.92
+Manual   = 3256.92
+Error    = 197.266
+
+ Check B2 Region
+Integral = 483.591
+Manual   = 483.591
+Error    = 11.5601
+
+---- 
+---- 
+

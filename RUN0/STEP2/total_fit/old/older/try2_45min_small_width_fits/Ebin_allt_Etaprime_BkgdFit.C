@@ -187,11 +187,11 @@ void  Ebin_allt_Etaprime_BkgdFit() {
 
 
    // Lower edge of |t| bins
-	TH1D *hBinDW = new TH1D("hBinDW", "#eta' tbin[Bin No.][0] value;Bin No.;|t| value [GeV^2/c^{4}]", 3, 0, 3.0);
+	TH1D *hBinDW = new TH1D("hBinDW", "#eta' tbin[Bin No.][0] value;Bin No.;|t| value [GeV^2/c^{4}]", 3, 0, 3);
    hBinDW->Sumw2();
 
    // Upper edge of |t| bins
-	TH1D *hBinUP = new TH1D("hBinUP", "#eta' tbin[Bin No.][1] value;Bin No.;|t| value [GeV^2/c^{4}]", 3, 0, 3.0);
+	TH1D *hBinUP = new TH1D("hBinUP", "#eta' tbin[Bin No.][1] value;Bin No.;|t| value [GeV^2/c^{4}]", 3, 0, 3);
    hBinUP->Sumw2();
 
    // Selecting the number of tagger energy bins

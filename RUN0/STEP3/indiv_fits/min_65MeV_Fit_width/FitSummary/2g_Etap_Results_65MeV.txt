@@ -1,0 +1,559 @@
+//-------------------------------//
+// Energy Rescaling Factor       //
+// ER = 0.97                     //
+// Tagging Scaling Factor        //
+// TSF = 0.935198 +/- 0.00249013 //
+//-------------------------------//
+
+---- M2g_E0_0 ----
+|t| bin = 0
+|t| = 0.1 to 0.3 GeV^2
+E bin = 0,  Tagger channel = 0 to 4
+5.115 < E_{gamma} < 5.385 GeV
+
+chisqTot           -> 2039.29
+ndofTot            -> 230
+fit probabilityTot -> 6.06775e-287
+
+Pi0 Fit's Peak           = 132.049 MeV/c^2
+Eta Fit's Peak           = 542.809 MeV/c^2
+Omega Leakage Fit's Peak = 743.516 MeV/c^2
+Etaprime Fit's Peak      = 958.961 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 2039.29
+ndofTot            -> 230
+fit probabilityTot -> 6.06775e-287
+
+Pi0_____mean_1 -> 0.133276
+Pi0____sigma_1 -> 0.0125782
+Pi0_____mean_2 -> 0.130126
+Pi0____sigma_2 -> 0.0224777
+
+Eta_____mean_1 -> 0.541997
+Eta____sigma_1 -> 0.0370066
+Eta_____mean_2 -> 0.556787
+Eta____sigma_2 -> 0.075  ****
+
+3G_leak_mean_1 -> 0.74224
+3G_leak_sigma1 -> 0.0587512
+3G_leak_mean_2 -> 0.757997
+3G_leak_sigma2 -> 0.0616102
+
+Etap____mean_1 -> 0.958961
+Etap___sigma_1 -> 0.065  ****
+
+p0     -> -119.097
+p1     -> 4709.74
+p2     -> -7121.69
+p3     -> 2777.16
+Scaler -> 0.228722
+_____________________________________________
+
+---- M2g_E0_1 ----
+|t| bin = 1
+|t| = 0.3 to 0.65 GeV^2
+E bin = 0,  Tagger channel = 0 to 4
+5.115 < E_{gamma} < 5.385 GeV
+
+chisqTot           -> 1639.97
+ndofTot            -> 229
+fit probabilityTot -> 1.95333e-211
+
+Pi0 Fit's Peak           = 137.452 MeV/c^2
+Eta Fit's Peak           = 546.224 MeV/c^2
+Omega Leakage Fit's Peak = 741.725 MeV/c^2
+Etaprime Fit's Peak      = 950.251 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 1639.97
+ndofTot            -> 229
+fit probabilityTot -> 1.95333e-211
+
+Pi0_____mean_1 -> 0.137028
+Pi0____sigma_1 -> 0.0141843
+Pi0_____mean_2 -> 0.138763
+Pi0____sigma_2 -> 0.0233079
+
+Eta_____mean_1 -> 0.544837
+Eta____sigma_1 -> 0.0403385
+Eta_____mean_2 -> 0.581636
+Eta____sigma_2 -> 0.0598735
+
+3G_leak_mean_1 -> 0.758
+3G_leak_sigma1 -> 0.0484606
+3G_leak_mean_2 -> 0.708  ****
+3G_leak_sigma2 -> 0.0619488
+
+Etap____mean_1 -> 0.950251
+Etap___sigma_1 -> 0.065  ****
+
+p0     -> -119.097
+p1     -> 4709.74
+p2     -> -7121.69
+p3     -> 2777.16
+Scaler -> 0.418039
+_____________________________________________
+
+---- M2g_E0_2 ----
+|t| bin = 2
+|t| = 0.65 to 1.05 GeV^2
+E bin = 0,  Tagger channel = 0 to 4
+5.115 < E_{gamma} < 5.385 GeV
+
+chisqTot           -> 580.235
+ndofTot            -> 228
+fit probabilityTot -> 1.37622e-32
+
+Pi0 Fit's Peak           = 139.668 MeV/c^2
+Eta Fit's Peak           = 549.429 MeV/c^2
+Omega Leakage Fit's Peak = 731.568 MeV/c^2
+Etaprime Fit's Peak      = 981.268 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 580.235
+ndofTot            -> 228
+fit probabilityTot -> 1.37622e-32
+
+Pi0_____mean_1 -> 0.13902
+Pi0____sigma_1 -> 0.0164902
+Pi0_____mean_2 -> 0.145015
+Pi0____sigma_2 -> 0.0266911
+
+Eta_____mean_1 -> 0.545905
+Eta____sigma_1 -> 0.0375812
+Eta_____mean_2 -> 0.60013  ****
+Eta____sigma_2 -> 0.0420956
+
+3G_leak_mean_1 -> 0.758  ****
+3G_leak_sigma1 -> 0.0406658
+3G_leak_mean_2 -> 0.708  ****
+3G_leak_sigma2 -> 0.0313467
+
+Etap____mean_1 -> 0.981268
+Etap___sigma_1 -> 0.065  ****
+
+p0     -> -119.097
+p1     -> 4709.74
+p2     -> -7121.69
+p3     -> 2777.16
+Scaler -> 0.20912
+_____________________________________________
+
+---- M2g_E1_0 ----
+|t| bin = 0
+|t| = 0.1 to 0.3 GeV^2
+E bin = 1,  Tagger channel = 5 to 9
+4.860 < E_{gamma} < 5.115 GeV
+
+chisqTot           -> 1212.19
+ndofTot            -> 231
+fit probabilityTot -> 1.07746e-132
+
+Pi0 Fit's Peak           = 132.569 MeV/c^2
+Eta Fit's Peak           = 544.545 MeV/c^2
+Omega Leakage Fit's Peak = 744.437 MeV/c^2
+Etaprime Fit's Peak      = 944.928 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 1212.19
+ndofTot            -> 231
+fit probabilityTot -> 1.07746e-132
+
+Pi0_____mean_1 -> 0.133359
+Pi0____sigma_1 -> 0.013496
+Pi0_____mean_2 -> 0.130572
+Pi0____sigma_2 -> 0.0229734
+
+Eta_____mean_1 -> 0.543188
+Eta____sigma_1 -> 0.0367841
+Eta_____mean_2 -> 0.573629
+Eta____sigma_2 -> 0.075  ****
+
+3G_leak_mean_1 -> 0.758  ****
+3G_leak_sigma1 -> 0.0527744
+3G_leak_mean_2 -> 0.724182
+3G_leak_sigma2 -> 0.0287768
+
+Etap____mean_1 -> 0.944928
+Etap___sigma_1 -> 0.065  ****
+
+p0     -> -109.186
+p1     -> 4057.79
+p2     -> -6038.95
+p3     -> 2315.83
+Scaler -> 0.299509
+_____________________________________________
+
+---- M2g_E1_1 ----
+|t| bin = 1
+|t| = 0.3 to 0.65 GeV^2
+E bin = 1,  Tagger channel = 5 to 9
+4.860 < E_{gamma} < 5.115 GeV
+
+chisqTot           -> 1820.74
+ndofTot            -> 228
+fit probabilityTot -> 5.38664e-246
+
+Pi0 Fit's Peak           = 137.894 MeV/c^2
+Eta Fit's Peak           = 545.985 MeV/c^2
+Omega Leakage Fit's Peak = 730.841 MeV/c^2
+Etaprime Fit's Peak      = 948.482 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 1820.74
+ndofTot            -> 228
+fit probabilityTot -> 5.38664e-246
+
+Pi0_____mean_1 -> 0.137581
+Pi0____sigma_1 -> 0.0142518
+Pi0_____mean_2 -> 0.139095
+Pi0____sigma_2 -> 0.0235468
+
+Eta_____mean_1 -> 0.542585
+Eta____sigma_1 -> 0.0355196
+Eta_____mean_2 -> 0.560616
+Eta____sigma_2 -> 0.052162
+
+3G_leak_mean_1 -> 0.758  ****
+3G_leak_sigma1 -> 0.0507654
+3G_leak_mean_2 -> 0.708  ****
+3G_leak_sigma2 -> 0.032992
+
+Etap____mean_1 -> 0.948482
+Etap___sigma_1 -> 0.065  ****
+
+p0     -> -109.186
+p1     -> 4057.79
+p2     -> -6038.95
+p3     -> 2315.83
+Scaler -> 0.388467
+_____________________________________________
+
+---- M2g_E1_2 ----
+|t| bin = 2
+|t| = 0.65 to 1.05 GeV^2
+E bin = 1,  Tagger channel = 5 to 9
+4.860 < E_{gamma} < 5.115 GeV
+
+chisqTot           -> 564.243
+ndofTot            -> 228
+fit probabilityTot -> 1.7681e-30
+
+Pi0 Fit's Peak           = 139.176 MeV/c^2
+Eta Fit's Peak           = 549.362 MeV/c^2
+Omega Leakage Fit's Peak = 723.959 MeV/c^2
+Etaprime Fit's Peak      = 990 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 564.243
+ndofTot            -> 228
+fit probabilityTot -> 1.7681e-30
+
+Pi0_____mean_1 -> 0.13854
+Pi0____sigma_1 -> 0.0159328
+Pi0_____mean_2 -> 0.143939
+Pi0____sigma_2 -> 0.0263339
+
+Eta_____mean_1 -> 0.545843
+Eta____sigma_1 -> 0.0381065
+Eta_____mean_2 -> 0.595302
+Eta____sigma_2 -> 0.0457604
+
+3G_leak_mean_1 -> 0.758  ****
+3G_leak_sigma1 -> 0.0352342
+3G_leak_mean_2 -> 0.714739
+3G_leak_sigma2 -> 0.025  ****
+
+Etap____mean_1 -> 0.99  ****
+Etap___sigma_1 -> 0.08  ****
+
+p0     -> -109.186
+p1     -> 4057.79
+p2     -> -6038.95
+p3     -> 2315.83
+Scaler -> 0.206752
+_____________________________________________
+
+---- M2g_E2_0 ----
+|t| bin = 0
+|t| = 0.1 to 0.3 GeV^2
+E bin = 2,  Tagger channel = 10 to 13
+4.615 < E_{gamma} < 4.860 GeV
+
+chisqTot           -> 1284.26
+ndofTot            -> 231
+fit probabilityTot -> 1.77104e-145
+
+Pi0 Fit's Peak           = 133.748 MeV/c^2
+Eta Fit's Peak           = 548.36 MeV/c^2
+Omega Leakage Fit's Peak = 749.214 MeV/c^2
+Etaprime Fit's Peak      = 948.035 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 1284.26
+ndofTot            -> 231
+fit probabilityTot -> 1.77104e-145
+
+Pi0_____mean_1 -> 0.134284
+Pi0____sigma_1 -> 0.013691
+Pi0_____mean_2 -> 0.131568
+Pi0____sigma_2 -> 0.0234889
+
+Eta_____mean_1 -> 0.547017
+Eta____sigma_1 -> 0.0365934
+Eta_____mean_2 -> 0.578901
+Eta____sigma_2 -> 0.075  ****
+
+3G_leak_mean_1 -> 0.741269
+3G_leak_sigma1 -> 0.025  ****
+3G_leak_mean_2 -> 0.758  ****
+3G_leak_sigma2 -> 0.0542496
+
+Etap____mean_1 -> 0.948035
+Etap___sigma_1 -> 0.0688793
+
+p0     -> -96.3867
+p1     -> 3257.04
+p2     -> -4745.65
+p3     -> 1782.77
+Scaler -> 0.279062
+_____________________________________________
+
+---- M2g_E2_1 ----
+|t| bin = 1
+|t| = 0.3 to 0.65 GeV^2
+E bin = 2,  Tagger channel = 10 to 13
+4.615 < E_{gamma} < 4.860 GeV
+
+chisqTot           -> 1272.13
+ndofTot            -> 229
+fit probabilityTot -> 4.64382e-144
+
+Pi0 Fit's Peak           = 138.652 MeV/c^2
+Eta Fit's Peak           = 546.429 MeV/c^2
+Omega Leakage Fit's Peak = 734.516 MeV/c^2
+Etaprime Fit's Peak      = 955.576 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 1272.13
+ndofTot            -> 229
+fit probabilityTot -> 4.64382e-144
+
+Pi0_____mean_1 -> 0.138514
+Pi0____sigma_1 -> 0.0148825
+Pi0_____mean_2 -> 0.139649
+Pi0____sigma_2 -> 0.0253612
+
+Eta_____mean_1 -> 0.535895
+Eta____sigma_1 -> 0.0303542
+Eta_____mean_2 -> 0.555587
+Eta____sigma_2 -> 0.0435336
+
+3G_leak_mean_1 -> 0.758  ****
+3G_leak_sigma1 -> 0.0408797
+3G_leak_mean_2 -> 0.708
+3G_leak_sigma2 -> 0.0716308
+
+Etap____mean_1 -> 0.955576
+Etap___sigma_1 -> 0.065  ****
+
+p0     -> -96.3867
+p1     -> 3257.04
+p2     -> -4745.65
+p3     -> 1782.77
+Scaler -> 0.416213
+_____________________________________________
+
+---- M2g_E2_2 ----
+|t| bin = 2
+|t| = 0.65 to 1.05 GeV^2
+E bin = 2,  Tagger channel = 10 to 13
+4.615 < E_{gamma} < 4.860 GeV
+
+chisqTot           -> 562.77
+ndofTot            -> 229
+fit probabilityTot -> 4.34255e-30
+
+Pi0 Fit's Peak           = 139.083 MeV/c^2
+Eta Fit's Peak           = 550.63 MeV/c^2
+Omega Leakage Fit's Peak = 727.932 MeV/c^2
+Etaprime Fit's Peak      = 961.451 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 562.77
+ndofTot            -> 229
+fit probabilityTot -> 4.34255e-30
+
+Pi0_____mean_1 -> 0.138568
+Pi0____sigma_1 -> 0.0155268
+Pi0_____mean_2 -> 0.143068
+Pi0____sigma_2 -> 0.0264631
+
+Eta_____mean_1 -> 0.547375
+Eta____sigma_1 -> 0.0371117
+Eta_____mean_2 -> 0.584753
+Eta____sigma_2 -> 0.0497513
+
+3G_leak_mean_1 -> 0.754318
+3G_leak_sigma1 -> 0.0339867
+3G_leak_mean_2 -> 0.708  ****
+3G_leak_sigma2 -> 0.0250029
+
+Etap____mean_1 -> 0.961451
+Etap___sigma_1 -> 0.065  ****
+
+p0     -> -96.3867
+p1     -> 3257.04
+p2     -> -4745.65
+p3     -> 1782.77
+Scaler -> 0.212589
+_____________________________________________
+
+---- M2g_E3_0 ----
+|t| bin = 0
+|t| = 0.1 to 0.3 GeV^2
+E bin = 3,  Tagger channel = 14 to 19
+4.385 < E_{gamma} < 4.615 GeV
+
+chisqTot           -> 1336.83
+ndofTot            -> 231
+fit probabilityTot -> 6.67173e-155
+
+Pi0 Fit's Peak           = 135.099 MeV/c^2
+Eta Fit's Peak           = 553.716 MeV/c^2
+Omega Leakage Fit's Peak = 753.376 MeV/c^2
+Etaprime Fit's Peak      = 952.912 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 1336.83
+ndofTot            -> 231
+fit probabilityTot -> 6.67173e-155
+
+Pi0_____mean_1 -> 0.135388
+Pi0____sigma_1 -> 0.0141762
+Pi0_____mean_2 -> 0.133014
+Pi0____sigma_2 -> 0.0247611
+
+Eta_____mean_1 -> 0.552559
+Eta____sigma_1 -> 0.036039
+Eta_____mean_2 -> 0.582633
+Eta____sigma_2 -> 0.075  ****
+
+3G_leak_mean_1 -> 0.747854
+3G_leak_sigma1 -> 0.0313753
+3G_leak_mean_2 -> 0.758  ****
+3G_leak_sigma2 -> 0.0589954
+
+Etap____mean_1 -> 0.952912
+Etap___sigma_1 -> 0.065  ****
+
+p0     -> -55.6356
+p1     -> 2536.91
+p2     -> -3604.65
+p3     -> 1305.26
+Scaler -> 0.272772
+_____________________________________________
+
+---- M2g_E3_1 ----
+|t| bin = 1
+|t| = 0.3 to 0.65 GeV^2
+E bin = 3,  Tagger channel = 14 to 19
+4.385 < E_{gamma} < 4.615 GeV
+
+chisqTot           -> 1952.5
+ndofTot            -> 229
+fit probabilityTot -> 1.02811e-270
+
+Pi0 Fit's Peak           = 139.168 MeV/c^2
+Eta Fit's Peak           = 550.706 MeV/c^2
+Omega Leakage Fit's Peak = 738.12 MeV/c^2
+Etaprime Fit's Peak      = 940 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 1952.5
+ndofTot            -> 229
+fit probabilityTot -> 1.02811e-270
+
+Pi0_____mean_1 -> 0.139009
+Pi0____sigma_1 -> 0.0144508
+Pi0_____mean_2 -> 0.140308
+Pi0____sigma_2 -> 0.0250055
+
+Eta_____mean_1 -> 0.547595
+Eta____sigma_1 -> 0.0348434
+Eta_____mean_2 -> 0.563349
+Eta____sigma_2 -> 0.0494803
+
+3G_leak_mean_1 -> 0.758  ****
+3G_leak_sigma1 -> 0.0461617
+3G_leak_mean_2 -> 0.708  ****
+3G_leak_sigma2 -> 0.061107
+
+Etap____mean_1 -> 0.94  ****
+Etap___sigma_1 -> 0.08  ****
+
+p0     -> -55.6356
+p1     -> 2536.91
+p2     -> -3604.65
+p3     -> 1305.26
+Scaler -> 0.391688
+_____________________________________________
+
+---- M2g_E3_2 ----
+|t| bin = 2
+|t| = 0.65 to 1.05 GeV^2
+E bin = 3,  Tagger channel = 14 to 19
+4.385 < E_{gamma} < 4.615 GeV
+
+chisqTot           -> 505.507
+ndofTot            -> 228
+fit probabilityTot -> 4.38182e-23
+
+Pi0 Fit's Peak           = 138.862 MeV/c^2
+Eta Fit's Peak           = 550.385 MeV/c^2
+Omega Leakage Fit's Peak = 740.113 MeV/c^2
+Etaprime Fit's Peak      = 941.765 MeV/c^2
+
+Status = Converged
+
+chisqTot           -> 505.507
+ndofTot            -> 228
+fit probabilityTot -> 4.38182e-23
+
+Pi0_____mean_1 -> 0.138416
+Pi0____sigma_1 -> 0.015101
+Pi0_____mean_2 -> 0.142276
+Pi0____sigma_2 -> 0.0264963
+
+Eta_____mean_1 -> 0.54722
+Eta____sigma_1 -> 0.0351135
+Eta_____mean_2 -> 0.581499
+Eta____sigma_2 -> 0.0532497
+
+3G_leak_mean_1 -> 0.758  ****
+3G_leak_sigma1 -> 0.037888
+3G_leak_mean_2 -> 0.708  ****
+3G_leak_sigma2 -> 0.0250001
+
+Etap____mean_1 -> 0.941765
+Etap___sigma_1 -> 0.0786175
+
+p0     -> -55.6356
+p1     -> 2536.91
+p2     -> -3604.65
+p3     -> 1305.26
+Scaler -> 0.224918
+_____________________________________________
+

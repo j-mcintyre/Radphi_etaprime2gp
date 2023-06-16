@@ -182,14 +182,14 @@ double ftotal(double *x, double *par) {
 }
 
 
-void Etaprime_E_bin_indiv_t_fits() {
+void Etaprime_E_bin_indiv_t_fits_55MeV() {
 
    // Create a Root file to later fill with new histograms for reference in further analysis work
-   TFile *StarterFile = new TFile("TwoG_may_16_2023_STEP3.root", "NEW");
+   TFile *StarterFile = new TFile("TwoG_may_16_2023_STEP3_55MeV.root", "NEW");
    StarterFile->Close();
 
    // File from STEP2 containing information for calculations & fitting
-   TFile *fStep2 = new TFile("/nfs/direct/annex/mcintyre/GitRepo/Radphi_etaprime2gp/RUN0/STEP2/total_fit/TwoG_may_16_2023_STEP2.root");
+   TFile *fStep2 = new TFile("/nfs/direct/annex/mcintyre/GitRepo/Radphi_etaprime2gp/RUN0/STEP2/total_fit/min_55MeV_Fit_width/TwoG_may_16_2023_STEP2_55MeV.root");
 
    // Importing |t| bin values
    TH1D *hBinDW  = (TH1D*)fStep2->Get("hBinDW");
@@ -348,7 +348,7 @@ void Etaprime_E_bin_indiv_t_fits() {
    double dparlim20 = 0.0;
 
    // A variable used to only print certain text
-   // once in 2g_Etaprime_Results.txt
+   // once in 2g_Etaprime_Results_55MeV.txt
    int reset = 0;
 
    // Setup an array of weights to be entered into a TH1D histogram 
@@ -787,7 +787,7 @@ void Etaprime_E_bin_indiv_t_fits() {
             // Signal #4 - Etap std dev limit for the single gaussian
             // Single Gaussian
             uparlim20 = 0.08;
-            dparlim20 = 0.045;
+            dparlim20 = 0.055;
 
             ///////////////////////////////////////
             /* Setting up the limits for the fit */
@@ -957,7 +957,7 @@ void Etaprime_E_bin_indiv_t_fits() {
 			ofstream CheckYield;
          TString hName;
          hName.Form("E%d_t%d", Echannel, tchannel);
-         CheckYield.open("Etaprime_yield_check.txt", std::ios_base::app);
+         CheckYield.open("Etaprime_yield_check_55MeV.txt", std::ios_base::app);
          if (CheckYield.is_open()) {
             CheckYield << "---- " << hName << " ----" << "\n";
             CheckYield << "----   Yield   ----" << "\n";
@@ -974,7 +974,7 @@ void Etaprime_E_bin_indiv_t_fits() {
 			ofstream FitYield;
          TString HistName;
          HistName.Form("E%d_t%d", Echannel, tchannel);
-         FitYield.open("Etaprime_yield_fit_width_45MeV_min.txt", std::ios_base::app);
+         FitYield.open("Etaprime_yield_fit_width_55MeV_min.txt", std::ios_base::app);
          if (FitYield.is_open()) {
             FitYield << HistName << " = " << YIELD << "\n";
          }
@@ -1901,7 +1901,7 @@ void Etaprime_E_bin_indiv_t_fits() {
 			ofstream FitErrorCalc;
          TString EName;
          EName.Form("E%d_t%d", Echannel, tchannel);
-         FitErrorCalc.open("Etap_fit_status.txt", std::ios_base::app);
+         FitErrorCalc.open("Etap_fit_status_55MeV.txt", std::ios_base::app);
          if (FitErrorCalc.is_open()) {
             FitErrorCalc << "___ " << EName << " ___" << "\n";
             FitErrorCalc << "B2               = " << iEtap_b2 << "\n";
@@ -2208,7 +2208,7 @@ void Etaprime_E_bin_indiv_t_fits() {
 
 			//Output file
 			ofstream Calcstatus1;
-         Calcstatus1.open("Etap_Calculations_Check.txt", std::ios_base::app);
+         Calcstatus1.open("Etap_Calculations_Check_55MeV.txt", std::ios_base::app);
          if (Calcstatus1.is_open()) {
             if (tchannel == 0) {
                Calcstatus1 << "____________________________________" << "\n"; 
@@ -3029,7 +3029,7 @@ void Etaprime_E_bin_indiv_t_fits() {
 			ofstream Fitstatus1;
          TString StatusName;
          StatusName.Form("E%d_t%d", Echannel, tchannel);
-         Fitstatus1.open("Etap_fit_status.txt", std::ios_base::app);
+         Fitstatus1.open("Etap_fit_status_55MeV.txt", std::ios_base::app);
          if (Fitstatus1.is_open()) {
             Fitstatus1 << StatusName << " = " << conv_fit << "\n";
             Fitstatus1 << "\n";
@@ -3042,7 +3042,7 @@ void Etaprime_E_bin_indiv_t_fits() {
          // Output file with Fit Summary
          reset += 1;
 			ofstream output;
-			output.open("2g_Etap_Results.txt", std::ios_base::app);
+			output.open("2g_Etap_Results_55MeV.txt", std::ios_base::app);
 			if (output.is_open()) {
             if (reset == 1){
                output << "//-------------------------------//" << "\n";
@@ -3234,7 +3234,7 @@ void Etaprime_E_bin_indiv_t_fits() {
       }
 
       // Root file with new histograms for reference in later analysis work
-      TFile *MyFile = new TFile("TwoG_may_16_2023_STEP3.root", "UPDATE");
+      TFile *MyFile = new TFile("TwoG_may_16_2023_STEP3_55MeV.root", "UPDATE");
 
       TString hist0Name = Form("h_W0_E%d", Echannel);
       // w0 weight and error
@@ -3278,7 +3278,7 @@ void Etaprime_E_bin_indiv_t_fits() {
 
       //Output file
       TString WgtName;
-      WgtName.Form("Errors.txt");
+      WgtName.Form("Errors_55MeV.txt");
       ofstream FitPar2;
       FitPar2.open(WgtName, std::ios_base::app);
       if (FitPar2.is_open()) {
@@ -3322,9 +3322,9 @@ void Etaprime_E_bin_indiv_t_fits() {
    }
 
    // Root file with new histograms for reference in later analysis work
-   TFile *yieldFile = new TFile("TwoG_may_16_2023_STEP3.root", "UPDATE");
+   TFile *yieldFile = new TFile("TwoG_may_16_2023_STEP3_55MeV.root", "UPDATE");
 
-   TH1D *Etap_yield = new TH1D("Etap_yield", "#eta' yield for fits with a minimum parameter width limit of 45 MeV/c^{2};x_{_{0-1 }}= (E_{#gamma_{Bin}}=_{ }0, |t|_{_{Bin}}=_{ }0) ,  x_{_{1-2}}= (E_{#gamma_{Bin}}=_{ }0, |t|_{_{Bin}}=_{ }1) ,  ... , x_{_{11-12}}= (E_{#gamma_{Bin}}=_{ }3, |t|_{_{Bin}}=_{ }2);#eta' yield per (E_{#gamma}, |t|) Bin", 12, 0, 12);
+   TH1D *Etap_yield = new TH1D("Etap_yield", "#eta' yield for fits with a minimum parameter width limit of 40 MeV/c^{2};x_{_{0-1 }}= (E_{#gamma_{Bin}}=_{ }0, |t|_{_{Bin}}=_{ }0) ,  x_{_{1-2}}= (E_{#gamma_{Bin}}=_{ }0, |t|_{_{Bin}}=_{ }1) ,  ... , x_{_{11-12}}= (E_{#gamma_{Bin}}=_{ }3, |t|_{_{Bin}}=_{ }2);#eta' yield per (E_{#gamma}, |t|) Bin", 12, 0, 12);
    //Etap_yield->Sumw2();
 
 
@@ -3373,12 +3373,13 @@ void Etaprime_E_bin_indiv_t_fits() {
       gSystem->Exec("mv PiFit_E*.png FitSummary/Pi0/.");
       gSystem->Exec("mv EtaFit_E*.png FitSummary/Eta/.");
       gSystem->Exec("mv EtapFit_E*.png FitSummary/Etap/.");
-      gSystem->Exec("mv *Results.txt FitSummary/.");
-      gSystem->Exec("mv *fit_status.txt FitSummary/.");
-      gSystem->Exec("mv Etap_Calculations_Check.txt calc_check/.");
-      gSystem->Exec("mv Etaprime_yield_check.txt calc_check/.");
-      gSystem->Exec("mv Errors.txt calc_check/.");
-      gSystem->Exec("mv Etaprime_yield_fit_width_45MeV_min.txt calc_check/.");
+      gSystem->Exec("mv *Results_55MeV.txt FitSummary/.");
+      gSystem->Exec("mv *fit_status_55MeV.txt FitSummary/.");
+
+      gSystem->Exec("mv Etap_Calculations_Check_55MeV.txt calc_check/.");
+      gSystem->Exec("mv Etaprime_yield_check_55MeV.txt calc_check/.");
+      gSystem->Exec("mv Errors_55MeV.txt calc_check/.");
+      gSystem->Exec("mv Etaprime_yield_fit_width_55MeV_min.txt calc_check/.");
    }
 
    // Failed Fitting
@@ -3409,8 +3410,8 @@ void Etaprime_E_bin_indiv_t_fits() {
       gSystem->Exec("mv PiFit_E*.png FAIL/TRASH/Pi0/.");
       gSystem->Exec("mv EtaFit_E*.png FAIL/TRASH/Eta/.");
       gSystem->Exec("mv EtapFit_E*.png FAIL/TRASH/Etap/.");
-      gSystem->Exec("mv *Results.txt FAIL/.");
-      gSystem->Exec("mv *fit_status.txt FAIL/TRASH/.");
+      gSystem->Exec("mv *Results_55MeV.txt FAIL/.");
+      gSystem->Exec("mv *fit_status_55MeV.txt FAIL/TRASH/.");
       gSystem->Exec("mv *.txt FAIL/TRASH/.");
    }
 }

@@ -187,11 +187,11 @@ void  Ebin_allt_Etaprime_BkgdFit() {
 
 
    // Lower edge of |t| bins
-	TH1D *hBinDW = new TH1D("hBinDW", "#eta' tbin[Bin No.][0] value;Bin No.;|t| value [GeV^2/c^{4}]", 3, 0, 3.0);
+	TH1D *hBinDW = new TH1D("hBinDW", "#eta' tbin[Bin No.][0] value;Bin No.;|t| value [GeV^2/c^{4}]", 3, 0, 3);
    hBinDW->Sumw2();
 
    // Upper edge of |t| bins
-	TH1D *hBinUP = new TH1D("hBinUP", "#eta' tbin[Bin No.][1] value;Bin No.;|t| value [GeV^2/c^{4}]", 3, 0, 3.0);
+	TH1D *hBinUP = new TH1D("hBinUP", "#eta' tbin[Bin No.][1] value;Bin No.;|t| value [GeV^2/c^{4}]", 3, 0, 3);
    hBinUP->Sumw2();
 
    // Selecting the number of tagger energy bins
@@ -586,10 +586,10 @@ void  Ebin_allt_Etaprime_BkgdFit() {
 
       // Signal #2 - Eta std dev limits for the double gaussian
       // Gaussian 1
-      uparlim8 = 0.080;
+      uparlim8 = 0.085;
       dparlim8 = 0.010;
       // Gaussian 2
-      uparlim11 = 0.080;
+      uparlim11 = 0.085;
       dparlim11 = 0.010;
 
       if (Echannel == 2) {
@@ -626,8 +626,8 @@ void  Ebin_allt_Etaprime_BkgdFit() {
 
       // Signal #4 - Etap std dev limit for the single gaussian
       // Single Gaussian
-      uparlim20 = 0.080;
-      dparlim20 = 0.045;
+      uparlim20 = 0.075;
+      dparlim20 = 0.015;
 
       ///////////////////////////////////////
       /* Setting up the limits for the fit */

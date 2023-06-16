@@ -9,3 +9,11 @@
 *2023.txt
 *check.txt
 *.log
+/Radphi_etaprime2gp/RUN0/STEP3/indiv_fits/calc_check
+/Radphi_etaprime2gp/RUN0/STEP3/indiv_fits/min_30MeV_Fit_width/calc_check
+/Radphi_etaprime2gp/RUN0/STEP3/indiv_fits/min_35MeV_Fit_width/calc_check
+/Radphi_etaprime2gp/RUN0/STEP3/indiv_fits/min_40MeV_Fit_width/calc_check
+/Radphi_etaprime2gp/RUN0/STEP3/indiv_fits/min_50MeV_Fit_width/calc_check
+/Radphi_etaprime2gp/RUN0/STEP3/indiv_fits/min_55MeV_Fit_width/calc_check
+/Radphi_etaprime2gp/RUN0/STEP3/indiv_fits/min_60MeV_Fit_width/calc_check
+/Radphi_etaprime2gp/RUN0/STEP3/indiv_fits/min_65MeV_Fit_width/calc_check
